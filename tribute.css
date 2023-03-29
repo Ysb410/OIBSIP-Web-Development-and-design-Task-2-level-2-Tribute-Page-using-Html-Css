@@ -1,0 +1,30 @@
+body{
+    margin: 60px;
+    font-family : Times New Roman;
+    background-color:powderblue;
+  }
+  *{
+  box-sizing: border-box;
+}
+  .header{
+    text-align: center;
+    text-decoration: underline rgb(219, 49, 15)  2px;
+    text-shadow: 2px 2px 4px #d47c7c;
+    color: rgb(7, 7, 7);
+  }
+  .main{
+    max-width: 660px; /* for  below IE7 use width: 660px; */
+      margin: 0 auto;
+  }
+
+
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  @media onlyscreen and(max-width: 620px){
+  .main,.header{
+    width: 100%;
+  }
+  }
